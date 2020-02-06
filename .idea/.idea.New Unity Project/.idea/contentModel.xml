@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\acer\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\acer\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_New Unity Project.149729665.00" t="ExcludeRecursive" />
+    <e p="C:\Users\acer\Desktop\dessertation\New Unity Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Airy UI" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AiryUIAnchorsEditorWindow.cs" t="Include" />
+            <e p="AiryUIAnimatedElementInspector.cs" t="Include" />
+            <e p="AiryUIAnimationManagerInspector.cs" t="Include" />
+            <e p="AiryUIBackButtonInspector.cs" t="Include" />
+            <e p="AiryUICustomAnimationElementInspector.cs" t="Include" />
+            <e p="AiryUIMainEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AiryUIAnchors.cs" t="Include" />
+            <e p="AiryUIAnimatedElement.cs" t="Include" />
+            <e p="AiryUIAnimationManager.cs" t="Include" />
+            <e p="AiryUIAnimationPositions.cs" t="Include" />
+            <e p="AiryUIBackButton.cs" t="Include" />
+            <e p="AiryUIBackButtonManager.cs" t="Include" />
+            <e p="AiryUICustomAnimationElement.cs" t="Include" />
+          </e>
+        </e>
+        <e p="movement.cs" t="Include" />
+        <e p="script" t="Include">
+          <e p="ball2.cs" t="Include" />
+          <e p="ButtonHandler.cs" t="Include" />
+          <e p="collision.cs" t="Include" />
+          <e p="Control.cs" t="Include" />
+          <e p="forball.cs" t="Include" />
+        </e>
+      </e>
+      <e p="New Unity Project.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
