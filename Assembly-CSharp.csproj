@@ -64,11 +64,13 @@
     <Compile Include="Assets\Airy UI\Scripts\AiryUIBackButton.cs" />
     <Compile Include="Assets\Airy UI\Scripts\AiryUIBackButtonManager.cs" />
     <Compile Include="Assets\Airy UI\Scripts\AiryUICustomAnimationElement.cs" />
+    <Compile Include="Assets\loader.cs" />
     <Compile Include="Assets\movement.cs" />
     <Compile Include="Assets\script\ball2.cs" />
     <Compile Include="Assets\script\ButtonHandler.cs" />
     <Compile Include="Assets\script\collision.cs" />
     <Compile Include="Assets\script\Control.cs" />
+    <Compile Include="Assets\script\Display.cs" />
     <Compile Include="Assets\script\forball.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/acer/Desktop/dessertation/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

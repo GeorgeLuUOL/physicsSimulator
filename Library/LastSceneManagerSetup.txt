@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Airy UI/_Sample Scenes/Airy UI.unity
+- path: Assets/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1

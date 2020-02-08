@@ -2,10 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonHandler : MonoBehaviour
 {
+    public string obj;
+
+    public Animator transition;
     // Start is called before the first frame update
     public void getInput()
     {
@@ -43,5 +47,56 @@ public class ButtonHandler : MonoBehaviour
         //currentSpeed = speedL;
         //string textValue = "aa";
         //Debug.Log(textValue+"");
+    }
+
+    public void restoreForBall()
+    {
+        Vector3 vL = new Vector3(-2.24f, -0.68f,0f);
+        Vector3 vR = new Vector3(2.24f, -0.68f,0f);
+        GameObject ballL = GameObject.Find("ballLeft");
+        GameObject ballR = GameObject.Find("ballRight");
+        ballL.GetComponent<Transform>().position=vL;
+        ballR.GetComponent<Transform>().position=vR;
+
+        ballL.GetComponent<Rigidbody2D>().mass = 1;
+        ballR.GetComponent<Rigidbody2D>().mass = 1;
+        
+        ballL.GetComponent<forball>().speed = 0;
+        ballR.GetComponent<forball>().speed = 0;
+        
+        Debug.Log("restore");
+    }
+
+    public void highlight(string obj)
+    {
+        obj = this.obj;
+        GameObject gp = GameObject.Find(obj);
+        Color temp=gp.GetComponent<Text>().color ;
+        float a = temp.a;
+        float b = temp.b;
+        float r = temp.r;
+        float g = temp.g;
+        gp.GetComponent<Text>().color=new Color(r,g+20,b+20,a);
+    }
+
+    public void loadSceneForM()
+    {
+        StartCoroutine((LoadScene(1)));
+    }
+
+    IEnumerator LoadScene(int sceneIndex)
+    {
+        transition.SetTrigger("start");
+        
+        yield return new WaitForSeconds(1.5f);
+
+        SceneManager.LoadScene(sceneIndex);
+
+    }
+
+    public void loadMenu()
+    {
+        SceneManager.LoadScene(0);
+
     }
 }
