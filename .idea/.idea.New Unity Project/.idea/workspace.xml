@@ -13,8 +13,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/collision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script/acceleration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/loader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Control.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script/Button_N2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/ButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/ball2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Display.cs" root0="FORCE_HIGHLIGHTING" />
@@ -26,10 +28,12 @@
         <option value="$PROJECT_DIR$/Assets/movement.cs" />
         <option value="$PROJECT_DIR$/Assets/script/collision.cs" />
         <option value="$PROJECT_DIR$/Assets/script/ball2.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/forball.cs" />
         <option value="$PROJECT_DIR$/Assets/script/Control.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/ButtonHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/script/Display.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/forball.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/Button_N2.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/ButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/acceleration.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +91,8 @@
       <workItem from="1580946158112" duration="2520000" />
       <workItem from="1580963069132" duration="8692000" />
       <workItem from="1581090413408" duration="11741000" />
+      <workItem from="1583766505619" duration="4582000" />
+      <workItem from="1583868923330" duration="8424000" />
     </task>
     <servers />
   </component>

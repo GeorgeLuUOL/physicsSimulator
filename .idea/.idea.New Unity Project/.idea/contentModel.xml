@@ -29,7 +29,9 @@
         <e p="loader.cs" t="Include" />
         <e p="movement.cs" t="Include" />
         <e p="script" t="Include">
+          <e p="acceleration.cs" t="Include" />
           <e p="ball2.cs" t="Include" />
+          <e p="Button_N2.cs" t="Include" />
           <e p="ButtonHandler.cs" t="Include" />
           <e p="collision.cs" t="Include" />
           <e p="Control.cs" t="Include" />

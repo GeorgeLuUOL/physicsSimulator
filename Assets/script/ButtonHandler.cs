@@ -42,6 +42,8 @@ public class ButtonHandler : MonoBehaviour
         ballR = GameObject.Find("ballRight");
         ballL.GetComponent<forball>().setSpeed(speedL);
         ballR.GetComponent<forball>().setSpeed(speedR);
+        GameObject.Find("speedG").GetComponent<Text>().text = "Speed of Green Ball: " + speedL;
+        GameObject.Find("speedR").GetComponent<Text>().text = "Speed of Red Ball: " + speedR;
         ballL.GetComponent<Rigidbody2D>().mass = massL;
         ballR.GetComponent<Rigidbody2D>().mass = massR;
         //currentSpeed = speedL;
@@ -67,6 +69,18 @@ public class ButtonHandler : MonoBehaviour
         Debug.Log("restore");
     }
 
+    public void restoreCube()
+    {
+       // Vector2 V=new Vector2(-6.8f,-2.17f);
+       // GameObject cube = GameObject.Find("cube");
+       // cube.GetComponent<acceleration>().acc.x = 0;
+     //   cube.GetComponent<acceleration>().acc.y = 0;
+       // cube.GetComponent<Transform>().position = V;
+       SceneManager.LoadScene(2);
+
+
+    }
+
     public void highlight(string obj)
     {
         obj = this.obj;
@@ -82,6 +96,12 @@ public class ButtonHandler : MonoBehaviour
     public void loadSceneForM()
     {
         StartCoroutine((LoadScene(1)));
+    }
+
+    public void loadSceneForN()
+    {
+        StartCoroutine((LoadScene(2)));
+        
     }
 
     IEnumerator LoadScene(int sceneIndex)

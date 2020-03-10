@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class forball : MonoBehaviour
 {
@@ -51,6 +52,9 @@ private Rigidbody2D rigidBody;
             this.setSpeed(calculateV1(v1,v2,m1,m2,e));
             GameObject.Find(temp).GetComponent<forball>().setSpeed(calculateV2(v1,v2,m1,m2,e));
              Debug.Log("collision detected"+calculateV1(v1,v2,m1,m2,e)+" "+" "+calculateV2(v1,v2,m1,m2,e)+" "+m1+" "+m2);
+
+             GameObject.Find("speedG").GetComponent<Text>().text = "Speed of Green Ball: " + v1;
+             GameObject.Find("speedR").GetComponent<Text>().text = "Speed of Red Ball: " + v2;
         }
     }
 
