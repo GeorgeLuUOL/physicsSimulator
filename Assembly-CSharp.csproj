@@ -70,6 +70,7 @@
     <Compile Include="Assets\script\ball2.cs" />
     <Compile Include="Assets\script\Button_N2.cs" />
     <Compile Include="Assets\script\ButtonHandler.cs" />
+    <Compile Include="Assets\script\circular.cs" />
     <Compile Include="Assets\script\collision.cs" />
     <Compile Include="Assets\script\Control.cs" />
     <Compile Include="Assets\script\Display.cs" />
