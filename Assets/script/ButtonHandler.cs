@@ -104,6 +104,11 @@ public class ButtonHandler : MonoBehaviour
         
     }
 
+    public void loadSceneForT()
+    {
+        StartCoroutine((LoadScene(3)));
+    }
+
     IEnumerator LoadScene(int sceneIndex)
     {
         transition.SetTrigger("start");
@@ -117,6 +122,11 @@ public class ButtonHandler : MonoBehaviour
     public void loadMenu()
     {
         SceneManager.LoadScene(0);
+
+    }
+    public void loadGra()
+    {
+        SceneManager.LoadScene(3);
 
     }
 }

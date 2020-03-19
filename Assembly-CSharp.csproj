@@ -71,10 +71,12 @@
     <Compile Include="Assets\script\Button_N2.cs" />
     <Compile Include="Assets\script\ButtonHandler.cs" />
     <Compile Include="Assets\script\circular.cs" />
+    <Compile Include="Assets\script\CircularConfirm.cs" />
     <Compile Include="Assets\script\collision.cs" />
     <Compile Include="Assets\script\Control.cs" />
     <Compile Include="Assets\script\Display.cs" />
     <Compile Include="Assets\script\forball.cs" />
+    <Compile Include="Assets\script\Line.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/acer/Desktop/dessertation/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

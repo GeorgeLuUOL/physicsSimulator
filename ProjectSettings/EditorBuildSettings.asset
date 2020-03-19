@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NewtonSecondLaw.unity
     guid: 790af17ac64fbc647a8718ba918e58ae
+  - enabled: 1
+    path: Assets/Scenes/circularMotion.unity
+    guid: 7f20b4d6d04679c46b0d9bca1fc81cbb
   m_configObjects: {}

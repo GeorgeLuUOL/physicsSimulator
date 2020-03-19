@@ -34,10 +34,12 @@
           <e p="Button_N2.cs" t="Include" />
           <e p="ButtonHandler.cs" t="Include" />
           <e p="circular.cs" t="Include" />
+          <e p="CircularConfirm.cs" t="Include" />
           <e p="collision.cs" t="Include" />
           <e p="Control.cs" t="Include" />
           <e p="Display.cs" t="Include" />
           <e p="forball.cs" t="Include" />
+          <e p="Line.cs" t="Include" />
         </e>
       </e>
       <e p="New Unity Project.sln" t="IncludeFlat" />

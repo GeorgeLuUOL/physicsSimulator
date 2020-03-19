@@ -13,6 +13,13 @@ public class acceleration : MonoBehaviour
     private Text outputV;
     double pi = Math.PI;
 
+    private LineRenderer line;
+
+    private Vector2 pos;
+
+    private int currLines = 0;
+
+    public Material material;
      //string t_a = outputA.GetComponent<Text>().text;
     //public float forceX;
     //public float forceY;
@@ -27,6 +34,8 @@ public class acceleration : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        pos = new Vector2(this.transform.position.x, this.transform.position.y);
+        
         r2d.AddForce(acc*r2d.mass);
         double accx = Convert.ToDouble(acc.x);
         double accy = Convert.ToDouble(acc.y);
@@ -39,5 +48,23 @@ public class acceleration : MonoBehaviour
         outputA.text = "resultant a :"+Convert.ToString(resultant_a)+" angle:"+Math.Atan(accy/accx)*180/pi;
         outputV.text = "velocity:" + Convert.ToString(resultant_v);
         Debug.Log("force set");
+        
+        createLine();
+        line.SetPosition(0,pos);
+        line.SetPosition(1,pos);
+    }
+
+    void createLine()
+    {
+        line=new GameObject("Line"+currLines).AddComponent<LineRenderer>();
+        line.positionCount = 2;
+        line.startWidth = 0.15f;
+        line.endWidth = 0.15f;
+        line.material = material;
+        line.startColor = Color.yellow;
+        
+        line.GetComponent<Renderer>().sortingLayerName="New Layer";
+        line.useWorldSpace = true;
+        line.numCapVertices = 50;
     }
 }
