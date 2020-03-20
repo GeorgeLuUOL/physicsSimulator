@@ -32,26 +32,50 @@ public class Button_N2 : MonoBehaviour
 
         cube.GetComponent<Rigidbody2D>().mass = InputMass;
         float accX;
-        if (InputForceX - InputU * InputMass * 10 < 0)
+        GameObject.Find("Drag").GetComponent<forceVec>().scale = InputForceX;
+        GameObject.Find("Vec2").GetComponent<Text>().text += InputForceX + "N";
+        GameObject.Find("DragY").GetComponent<forceVec>().scale = InputForceY/5;
+        GameObject.Find("Vec1").GetComponent<Text>().text += InputForceY + "N";
+        GameObject.Find("gravity").GetComponent<forceVec>().scale = InputMass*10/5;
+        GameObject.Find("Vec3").GetComponent<Text>().text += InputMass*10 + "N";
+        if (Math.Abs(InputForceX) - InputU * InputMass * 10 < 0)
         {
             accX = 0;
+            GameObject.Find("f").GetComponent<forceVec>().scale = InputForceX;
+            GameObject.Find("Vec4").GetComponent<Text>().text += InputForceX + "N";
         }
         else
         {
-            accX = (InputForceX - InputU * InputMass * 10) / InputMass;
+            if (InputForceX < 0)
+            {
+                GameObject.Find("f").GetComponent<forceVec>().scale = -InputU * InputMass * 10;
+                GameObject.Find("Vec4").GetComponent<Text>().text += -InputU * InputMass * 10 + "N";
+                accX = (InputForceX + InputU * InputMass * 10) / InputMass;
+            }
+            else
+            {
+                GameObject.Find("f").GetComponent<forceVec>().scale = InputU * InputMass * 10;
+                GameObject.Find("Vec4").GetComponent<Text>().text += InputU * InputMass * 10 + "N";
+                accX = (InputForceX - InputU * InputMass * 10) / InputMass;
+            }
         }
 
         float accY;
         if (InputMass * 10 >= InputForceY)
         {
             accY = 0;
+            GameObject.Find("N").GetComponent<forceVec>().scale = (InputMass * 10 - InputForceY)/5;
+            GameObject.Find("Vec5").GetComponent<Text>().text += (InputMass * 10 - InputForceY)+ "N";
         }
         else
         {
             accY = (InputForceY - InputMass * 10) / InputMass;
+            GameObject.Find("Vec5").GetComponent<Text>().text += 0+ "N";
+            
         }
 
         cube.GetComponent<acceleration>().acc.x = accX;
         cube.GetComponent<acceleration>().acc.y = accY;
+        this.gameObject.SetActive(false);
     }
 }

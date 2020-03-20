@@ -29,7 +29,7 @@ public class CircularConfirm : MonoBehaviour
         moon.GetComponent<circular>().speed = Inputv;
         Debug.Log( moon.GetComponent<circular>().speed);
         moon.GetComponent<circular>().gravity = Inputg;
-
+        this.gameObject.SetActive(false);
 
     }
 }

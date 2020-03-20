@@ -76,7 +76,10 @@
     <Compile Include="Assets\script\Control.cs" />
     <Compile Include="Assets\script\Display.cs" />
     <Compile Include="Assets\script\forball.cs" />
+    <Compile Include="Assets\script\forceVec.cs" />
     <Compile Include="Assets\script\Line.cs" />
+    <Compile Include="Assets\VecL.cs" />
+    <Compile Include="Assets\vecR.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/acer/Desktop/dessertation/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

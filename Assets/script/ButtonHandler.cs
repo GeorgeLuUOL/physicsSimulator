@@ -46,9 +46,12 @@ public class ButtonHandler : MonoBehaviour
         GameObject.Find("speedR").GetComponent<Text>().text = "Speed of Red Ball: " + speedR;
         ballL.GetComponent<Rigidbody2D>().mass = massL;
         ballR.GetComponent<Rigidbody2D>().mass = massR;
+        GameObject.Find("VecR").GetComponent<vecR>().scale = speedR;
+        GameObject.Find("VecL").GetComponent<VecL>().scale = speedL;
         //currentSpeed = speedL;
         //string textValue = "aa";
         //Debug.Log(textValue+"");
+        this.gameObject.SetActive(false);
     }
 
     public void restoreForBall()
@@ -67,6 +70,7 @@ public class ButtonHandler : MonoBehaviour
         ballR.GetComponent<forball>().speed = 0;
         
         Debug.Log("restore");
+        SceneManager.LoadScene(1);
     }
 
     public void restoreCube()

@@ -35,10 +35,10 @@ public class circular : MonoBehaviour
         
         float hypoteinousa = Convert.ToSingle(Math.Sqrt(currX * currX + currY * currY));
         
-        float forceX =rigidBody.mass*gravity;
-        float forceY = currY / hypoteinousa * gravity;
-        rigidBody.AddForce(new Vector2(0f,-forceX));
-        Debug.Log(hypoteinousa);
+        float forceY =rigidBody.mass*gravity;
+        //float forceY = currY / hypoteinousa * gravity;
+        rigidBody.AddForce(new Vector2(0f,-forceY));
+        Debug.Log(rigidBody.velocity.y);
         pos = new Vector2(this.transform.position.x, this.transform.position.y);
         createLine();
         line.SetPosition(0,pos);

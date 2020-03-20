@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/acceleration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Button_N2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/vecR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/ButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/ball2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Display.cs" root0="FORCE_HIGHLIGHTING" />
@@ -22,7 +23,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/script/collision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/loader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Control.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script/forceVec.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/CircularConfirm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VecL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Line.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -33,12 +36,15 @@
         <option value="$PROJECT_DIR$/Assets/script/ball2.cs" />
         <option value="$PROJECT_DIR$/Assets/script/Control.cs" />
         <option value="$PROJECT_DIR$/Assets/script/Display.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/forball.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/Button_N2.cs" />
         <option value="$PROJECT_DIR$/Assets/script/acceleration.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/CircularConfirm.cs" />
         <option value="$PROJECT_DIR$/Assets/script/circular.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/CircularConfirm.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/Button_N2.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/forceVec.cs" />
+        <option value="$PROJECT_DIR$/Assets/vecR.cs" />
+        <option value="$PROJECT_DIR$/Assets/VecL.cs" />
         <option value="$PROJECT_DIR$/Assets/script/ButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/forball.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +106,8 @@
       <workItem from="1583868923330" duration="8424000" />
       <workItem from="1584469646953" duration="3394000" />
       <workItem from="1584650925816" duration="8387000" />
+      <workItem from="1584662612123" duration="606000" />
+      <workItem from="1584712376419" duration="10717000" />
     </task>
     <servers />
   </component>
