@@ -32,4 +32,25 @@ public class CircularConfirm : MonoBehaviour
         this.gameObject.SetActive(false);
 
     }
+
+    public void openDocument()
+    {
+        GameObject.Find("documentPa").transform.Find("document").gameObject.SetActive(true);
+    }
+    public void closeDocument()
+    {
+        GameObject.Find("documentPa").transform.Find("document").gameObject.SetActive(false);
+    }
+
+    public void openQuestion()
+    {
+        GameObject Q = GameObject.Find("QuestionPartPa");
+        Q.transform.Find("QuestionPart").gameObject.SetActive(true);
+        //Q.GetComponent<generateQuestion>().generateRandomQuestion();
+    }
+    public void closeQuestion()
+    {
+        GameObject.Find("QuestionPartPa").transform.Find("QuestionPart").gameObject.SetActive(false);
+    }
+
 }

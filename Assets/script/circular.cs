@@ -53,8 +53,8 @@ public class circular : MonoBehaviour
         line.endWidth = 0.05f;
         //line.material = material;
         line.startColor = Color.yellow;
-        line.endColor = Color.green;
-        
+        line.endColor =Color.yellow;
+        //line.colorGradient = Color.yellow;
         line.GetComponent<Renderer>().sortingLayerName="New Layer";
         line.useWorldSpace = true;
         line.numCapVertices = 50;
