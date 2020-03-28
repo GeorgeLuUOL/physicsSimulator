@@ -21,7 +21,17 @@ public class submitGetFeedback : MonoBehaviour
 
     public void getFeedBack()
     {
-        int answer = Convert.ToInt32(GameObject.Find("InputAnswer").GetComponent<InputField>().text);
+        int answer = 1;
+        string t = "-1";
+       // GameObject.Find("InputAnswer").GetComponent<InputField>().text.
+       if (GameObject.Find("InputAnswer").GetComponent<InputField>().text!="")
+           
+       {
+           Debug.Log(GameObject.Find("InputAnswer").GetComponent<InputField>().text);
+           t=GameObject.Find("InputAnswer").GetComponent<InputField>().text;
+       }
+
+       answer = Convert.ToInt32(t);
         int presume = GameObject.Find("Question2").GetComponent<scriptForQuestion>().time;
         int exactAnswer = 5*presume*presume;
         if (answer == exactAnswer)
