@@ -66,6 +66,7 @@
     <Compile Include="Assets\Airy UI\Scripts\AiryUICustomAnimationElement.cs" />
     <Compile Include="Assets\loader.cs" />
     <Compile Include="Assets\movement.cs" />
+    <Compile Include="Assets\quit.cs" />
     <Compile Include="Assets\script\acceleration.cs" />
     <Compile Include="Assets\script\ball2.cs" />
     <Compile Include="Assets\script\Button_N2.cs" />
