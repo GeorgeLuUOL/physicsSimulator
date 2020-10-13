@@ -11,30 +11,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/submitGetFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script/submitGetFeedback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script/VecL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/unity/2018.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/acceleration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Button_N2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/vecR.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/set.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/ButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/ball2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Display.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/forball.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/quit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script/scriptForQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/circular.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/generateQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/collision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/unity/2018.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/loader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Control.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/forceVec.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/CircularConfirm.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scriptForQuestion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/VecL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script/Line.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/unity/2018.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script/set.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,19 +41,19 @@
         <option value="$PROJECT_DIR$/Assets/script/Control.cs" />
         <option value="$PROJECT_DIR$/Assets/script/Display.cs" />
         <option value="$PROJECT_DIR$/Assets/script/acceleration.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/Button_N2.cs" />
         <option value="$PROJECT_DIR$/Assets/script/forceVec.cs" />
         <option value="$PROJECT_DIR$/Assets/vecR.cs" />
         <option value="$PROJECT_DIR$/Assets/VecL.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/ButtonHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/script/forball.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/circular.cs" />
         <option value="$PROJECT_DIR$/Assets/set.cs" />
-        <option value="$PROJECT_DIR$/Assets/script/CircularConfirm.cs" />
         <option value="$PROJECT_DIR$/Assets/scriptForQuestion.cs" />
         <option value="$PROJECT_DIR$/Assets/script/generateQuestion.cs" />
         <option value="$PROJECT_DIR$/Assets/submitGetFeedback.cs" />
         <option value="$PROJECT_DIR$/Assets/quit.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/Button_N2.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/circular.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/CircularConfirm.cs" />
+        <option value="$PROJECT_DIR$/Assets/script/ButtonHandler.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +122,11 @@
       <workItem from="1586529532740" duration="691000" />
       <workItem from="1587147321912" duration="1327000" />
       <workItem from="1587658786223" duration="3828000" />
+      <workItem from="1587757592084" duration="4537000" />
+      <workItem from="1587853103053" duration="9075000" />
+      <workItem from="1587987654526" duration="2747000" />
+      <workItem from="1588032148021" duration="3276000" />
+      <workItem from="1588102685561" duration="7756000" />
     </task>
     <servers />
   </component>

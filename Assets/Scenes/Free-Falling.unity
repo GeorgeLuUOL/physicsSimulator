@@ -1978,6 +1978,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5627348516712363579, guid: 0604c64f686b0fc4d899eb6051a672fd,
+        type: 3}
+      propertyPath: m_CharacterLimit
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627348516712363579, guid: 0604c64f686b0fc4d899eb6051a672fd,
+        type: 3}
+      propertyPath: m_Text
+      value: 9.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5627348516867374848, guid: 0604c64f686b0fc4d899eb6051a672fd,
         type: 3}
       propertyPath: m_Enabled

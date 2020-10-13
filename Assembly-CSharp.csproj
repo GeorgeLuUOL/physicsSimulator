@@ -64,9 +64,6 @@
     <Compile Include="Assets\Airy UI\Scripts\AiryUIBackButton.cs" />
     <Compile Include="Assets\Airy UI\Scripts\AiryUIBackButtonManager.cs" />
     <Compile Include="Assets\Airy UI\Scripts\AiryUICustomAnimationElement.cs" />
-    <Compile Include="Assets\loader.cs" />
-    <Compile Include="Assets\movement.cs" />
-    <Compile Include="Assets\quit.cs" />
     <Compile Include="Assets\script\acceleration.cs" />
     <Compile Include="Assets\script\ball2.cs" />
     <Compile Include="Assets\script\Button_N2.cs" />
@@ -80,9 +77,14 @@
     <Compile Include="Assets\script\forceVec.cs" />
     <Compile Include="Assets\script\generateQuestion.cs" />
     <Compile Include="Assets\script\Line.cs" />
-    <Compile Include="Assets\scriptForQuestion.cs" />
-    <Compile Include="Assets\set.cs" />
-    <Compile Include="Assets\submitGetFeedback.cs" />
+    <Compile Include="Assets\script\loader.cs" />
+    <Compile Include="Assets\script\movement.cs" />
+    <Compile Include="Assets\script\quit.cs" />
+    <Compile Include="Assets\script\scriptForQuestion.cs" />
+    <Compile Include="Assets\script\set.cs" />
+    <Compile Include="Assets\script\submitGetFeedback.cs" />
+    <Compile Include="Assets\script\VecL.cs" />
+    <Compile Include="Assets\script\vecR.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -116,8 +118,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\VecL.cs" />
-    <Compile Include="Assets\vecR.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

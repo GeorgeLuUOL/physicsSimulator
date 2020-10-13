@@ -75,11 +75,7 @@ public class ButtonHandler : MonoBehaviour
 
     public void restoreCube()
     {
-       // Vector2 V=new Vector2(-6.8f,-2.17f);
-       // GameObject cube = GameObject.Find("cube");
-       // cube.GetComponent<acceleration>().acc.x = 0;
-     //   cube.GetComponent<acceleration>().acc.y = 0;
-       // cube.GetComponent<Transform>().position = V;
+     
        SceneManager.LoadScene(2);
 
 
@@ -131,6 +127,5 @@ public class ButtonHandler : MonoBehaviour
     public void loadGra()
     {
         SceneManager.LoadScene(3);
-
     }
 }

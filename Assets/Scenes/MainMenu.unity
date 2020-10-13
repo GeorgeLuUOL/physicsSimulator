@@ -1485,7 +1485,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Simple Phisics
+  m_Text: Simple Physics
 --- !u!222 &1824748433
 CanvasRenderer:
   m_ObjectHideFlags: 0

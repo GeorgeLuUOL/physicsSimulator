@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/acer/Desktop/demo2/New Unity Project.exe
+C:/Users/acer/Desktop/Physics_Teaching_Aid/New Unity Project.exe
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/momentum.unity
